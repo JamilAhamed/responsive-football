@@ -1,130 +1,127 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 h1 {
-    font-size: 50px;
-  }
+  font-size: 50px;
+}
 /* header section */
-.container{
-    background-color: rgb(45, 45, 165);
-    display: flex;
-    padding: 30px;
+.container {
+  background-color: rgb(45, 45, 165);
+  display: flex;
+  padding: 30px;
 }
-.container h1{
-    color: white;
+.container h1 {
+  color: white;
 }
-.padding1{
-    padding-left: 5px;
-    margin-left: 156px;
+.padding1 {
+  padding-left: 5px;
+  margin-left: 156px;
 }
-.padding2{
-    margin-left: 102px;
+.padding2 {
+  margin-left: 102px;
 }
-.half-width{
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    margin: auto;
+.half-width {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  margin: auto;
 }
-.banner-image{
-    height: 70%;
-    width: 70%;
+.banner-image {
+  height: 70%;
+  width: 70%;
 }
 
 /* button */
 .link-button {
-    text-decoration: none;
-    background-color: #E02C6D;
-    color: white;
-    font-weight: 300;
-    padding: 10px 30px;
-    border-radius: 5px;
-  }
-  .arrow{
-    color: white;
-    size: 90%;
-    padding-left: 5px;
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: white;
+  font-weight: 300;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.arrow {
+  color: white;
+  size: 90%;
+  padding-left: 5px;
 }
 /* players section */
-.player-img{
-    width: 300px;
-    justify-content: center;
-    padding: 30px;
-    
+.player-img {
+  width: 300px;
+  justify-content: center;
+  padding: 30px;
 }
-.players-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-    background-color: white;
-    padding-top: 90px;
-    padding-left: 30px;
-    margin-left: 30px;
+.players-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  background-color: white;
+  padding-top: 90px;
+  padding-left: 30px;
+  margin-left: 30px;
 }
-.players{
-    height: 100%;
-    width: 90%;
-    box-shadow:10px 10px 40px gray;
-    border-radius: 10px;
+.players {
+  height: 100%;
+  width: 90%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
 }
-.players-designing{
-    padding-left: 30px;
-    padding-right: 10px;
+.players-designing {
+  padding-left: 30px;
+  padding-right: 10px;
 }
 
 /* fans review section */
 
-.top-blogs{
-    padding-top: 150px;
-    padding-left: 50px;
+.top-blogs {
+  padding-top: 150px;
+  padding-left: 50px;
 }
-.section-title{
-    padding-bottom: 30px;
-    padding-left: 450px;
-    color: #562eff;
+.section-title {
+  padding-bottom: 30px;
+  padding-left: 450px;
+  color: #562eff;
 }
 .blogs {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 26px;
-  }
-  .blog {
-    display: flex;
-  }
-  .blog img {
-    width: 177px;
-    height: 117px;
-  }
-  .blog-info {
-    margin-left: 16px;
-  }
-  blog-title {
-    font-size: 10px;
-  }
-  .blog-auther {
-    color: #562eff;
-    font-size: 16px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
+}
+.blog {
+  display: flex;
+}
+.blog img {
+  width: 177px;
+  height: 117px;
+}
+.blog-info {
+  margin-left: 16px;
+}
+blog-title {
+  font-size: 10px;
+}
+.blog-auther {
+  color: #562eff;
+  font-size: 16px;
+}
 /* footer */
-.footer-logo img{
-    width: 20%;
-    padding-left: 450px;
-    
+.footer-logo img {
+  width: 20%;
+  padding-left: 485px;
 }
-.social-icons{
-    color: white;
-    size: 90%;
-    text-align: center;
-    background-color: black;
+.social-icons {
+  /* color: black; */
+  size: 190%;
+  text-align: center;
 }
-.footer{
-   text-align: center;
+.footer {
+  text-align: center;
 }

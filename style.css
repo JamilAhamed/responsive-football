@@ -25,8 +25,10 @@ h1 {
   padding-left: 5px;
   margin-left: 156px;
 }
+
 .padding2 {
   margin-left: 102px;
+ 
 }
 .half-width {
   width: 50%;
@@ -34,11 +36,10 @@ h1 {
   justify-content: center;
   margin: auto;
 }
-.banner-image {
+.banner-image  {
   height: 70%;
   width: 70%;
 }
-
 /* button */
 .link-button {
   text-decoration: none;
@@ -118,10 +119,36 @@ blog-title {
   padding-left: 485px;
 }
 .social-icons {
-  /* color: black; */
   size: 190%;
   text-align: center;
 }
 .footer {
   text-align: center;
+}
+/* media queary */
+
+/* Mobile devices */
+@media only screen and(max-width: 688px) {
+.container{
+    width: 100%;
+  }
+  .half-width{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .players-container, .top-blog{
+    flex-direction: column;
+  }
+  /* tablet devices */
+@media only  screen and (min-width: 688px) and (max-width: 992px) {
+  .container{
+    width: 100%;
+  }
+  .players-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blogs{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 }
